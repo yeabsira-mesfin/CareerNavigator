@@ -9,25 +9,17 @@
 
 </head>
 <body>
-   
-        <nav class="flex items-center sm:justify-end justify-around md:justify-around lg:justify-around bg-gray-800 p-1 w-full">
-        
-            <a href="index.html"><img src="./Assets/Images/jobicon.png" alt="" class="w-10 h-10 rounded-full "></a>
-            <p class="md:hidden lg:hidden sm:block ml-20 pl-20 text-right"><i class="fas fa-bars text-white p-0" onclick=""></i></p>
-            <ul class="flex flex-col sm:hidden lg:block md:block space-x-4 bg-gray-800 text-white p-4" id="ul"> 
-                
-                <li class="lg:inline md:inline hidden"><a href="index.html">Home</a></li>
-                <li class="lg:inline md:inline hidden"><a href="jobs.html">Jobs</a></li>
-                <li class="lg:inline md:inline hidden"><a href="add_jobs.html">Add Jobs</a></li>
-                
-            </ul>
-        </nav>
+    <nav class="flex items-center sm:justify-end justify-around md:justify-around lg:justify-around bg-gray-800 p-1 w-full">
+        <a href="index.html"><img src="./Assets/Images/jobicon.png" alt="" class="w-10 h-10 rounded-full "></a>
+        <!-- <p class="md:hidden lg:hidden sm:block ml-20 pl-20 text-right"><i class="fas fa-bars text-white p-0" id="extend"></i></p> -->
+        <ul class="flex flex-row space-x-4 bg-gray-800 text-white p-4" id="ul"> 
+            <li class="inline-block sm:inline-block" id="home"><a href="index.html">Home</a></li>
+            <li class="inline-block sm:inline-block" id="jobs"><a href="jobs.html">Jobs</a></li>
+            <li class="inline-block sm:inline-block" id="add_jobs"><a href="add_jobs.html">Add Jobs</a></li>
+        </ul>
+    </nav>
     
-    <main class="p-4">
-        <p>Welcome to the Home Page!</p>
-    </main>
 
-    <script src="../src/js/app.js">
-    </script>
+   
 </body>
 </html>
