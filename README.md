@@ -9,7 +9,6 @@
 # The project structure should be as below.
 
 <!-- 
-
 project/
 ├── public/
 │   ├── index.html
